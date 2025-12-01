@@ -1,0 +1,19 @@
+is the adhan call to prayer the same at all 5 times during the day?
+
+No, the actual wording and melody of the adhan are almost always identical for all five daily prayers (Fajr, Dhuhr, Asr, Maghrib, Isha).
+The only difference is a single extra phrase added only at the Fajr (dawn) call:
+Standard line (in all five):
+الصلاة خير من النوم
+(as-salātu khayrun min an-nawm)
+“Prayer is better than sleep”
+This line is said twice, right after حي على الفلاح (hayya ‘ala l-falāh).
+So:
+
+Fajr adhan = normal adhan + 2× “Prayer is better than sleep”
+The other four prayers = exactly the same text and usually the same melody/recording
+
+In most neighborhoods/mosques that use a recording or the same muezzin, the audio file is 100 % identical for Dhuhr, Asr, Maghrib, and Isha. Only Fajr is slightly longer/different.
+For your cancellation project that means:
+
+One inverted WAV will perfectly cancel the four non-Fajr calls.
+You need a second inverted WAV (of the Fajr version with the extra phrase) for dawn, or the script will only partially cancel it.
